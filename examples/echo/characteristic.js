@@ -8,6 +8,7 @@ var EchoCharacteristic = function() {
   EchoCharacteristic.super_.call(this, {
     uuid: 'ec0e',
     properties: ['read', 'write', 'notify'],
+    secure: ['read'],
     value: null
   });
 
